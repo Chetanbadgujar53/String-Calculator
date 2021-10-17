@@ -64,7 +64,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testOtherDelimiter()                //This method is use for the test other Delimiter ,whenever user call or add ("//;\n1;2") then it will calculate delimiter
+    public void testOtherDelimiter()              //This method is use for the test other Delimiter ,whenever user call or add ("//;\n1;2") then it will calculate delimiter
     {
     	assertEquals(3, Calculator.add("//;\n1;2"));
     }
