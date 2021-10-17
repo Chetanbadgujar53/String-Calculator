@@ -34,13 +34,14 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testNewLine()
+    public void testNewLine()             //This menthod which is use for the testNewLine() ,whene the user enter the \n or ("1\n2,3") then it will calculator.add(("1\n2,3"))
     {
     	assertEquals(6, Calculator.add("1\n2,3"));
     }
 
     @Test
-    public void testNegativeNumver(){
+    public void testNegativeNumver         //This method which is use for the whene user entering NegativeNumver  then we developed this logic and also handling risky code with the help of try catch {} block , we hand
+    {
     	try {
 			Calculator.add("-1,2");
 		}
