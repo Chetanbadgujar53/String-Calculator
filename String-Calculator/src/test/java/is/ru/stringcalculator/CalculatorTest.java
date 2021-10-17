@@ -10,27 +10,32 @@ public class CalculatorTest {
     }
 
 	@Test
-	public void testEmptyString() {
+	public void testEmptyString()            //Test Empty String Function 
+	{
 		assertEquals(0, Calculator.add(""));
 	}
 
 	@Test
-	public void testOneNumber() {
+	public void testOneNumber()          //Test OnE Number function it evaluate to adding one number for calculator.add("1")
+	{
 		assertEquals(1, Calculator.add("1"));
 	}
 
 	@Test
-	public void testTwoNumbers(){
+	public void testTwoNumbers()         //Test two Number method it accepting two number for calculator .add(1,2)
+	{
 		assertEquals(3, Calculator.add("1,2"));
 	}
 
 	@Test
-    public void testThreeNumbers(){
+    public void testThreeNumbers()           //Test three number method which is returning three number for calculator.add("1,2,3") 
+    {
     	assertEquals(6, Calculator.add("1,2,3"));
     }
 
     @Test
-    public void testNewLine(){
+    public void testNewLine()
+    {
     	assertEquals(6, Calculator.add("1\n2,3"));
     }
 
