@@ -2,7 +2,7 @@ package is.ru.stringcalculator;
 
 public class Calculator {
 
-	public static int add(String text)                     //The method can take / matches string delimiter, separated by commas, and will return their sum. 
+	public static int add(String text)  //The method can take / matches string delimiter, separated by commas, and will return their sum. 
 	{
 		if(text.equals(""))
 		{
