@@ -58,12 +58,14 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testOverThousand(){
+    public void testOverThousand()               //This method which is use for the test over thousand();
+    {
     	assertEquals(2, Calculator.add("1000,2"));
     }
 
     @Test
-    public void testOtherDelimiter(){
+    public void testOtherDelimiter()                //This method is use for the test other Delimiter ,whenever user call or add ("//;\n1;2") then it will calculate delimiter
+    {
     	assertEquals(3, Calculator.add("//;\n1;2"));
     }
 }
